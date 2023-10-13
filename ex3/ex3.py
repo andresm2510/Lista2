@@ -24,8 +24,8 @@ ex3Classe.Retangulo(X,Y)
 
 local = ex3Classe.Retangulo(X,Y)
 
-a= ex3Classe.calculaArea()
+a= ex3Classe.Retangulo.calculaArea(local)
 
-b= ex3Classe.calculaPerimetro()
+b= ex3Classe.Retangulo.calculaPerimetro(local)
 
 print("O local necessita de ", a, "m² de piso e ", b, "m de rodapé.")
